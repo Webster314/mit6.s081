@@ -1,0 +1,16 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ pingpong
+4: received ping
+usertrap(): unexpected scause 0x0000000000000002 pid=4
+            sepc=0x00000000000000fe stval=0x0000000000000000
+3: received pong
+usertrap(): unexpected scause 0x0000000000000002 pid=3
+            sepc=0x00000000000000fe stval=0x0000000000000000
+$ echo OK
+OK
+$ qemu-system-riscv64: terminating on signal 15 from pid 33496 (make)
