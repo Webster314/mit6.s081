@@ -23,5 +23,5 @@ int main(int argc, char * argv[]){
     }else{
         exit(-1); 
     }
-    return 0;
+    exit(0);
 }

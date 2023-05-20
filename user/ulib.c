@@ -7,7 +7,6 @@ char*
 strcpy(char *s, const char *t)
 {
   char *os;
-
   os = s;
   while((*s++ = *t++) != 0)
     ;
